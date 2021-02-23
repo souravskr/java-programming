@@ -149,8 +149,10 @@ public class PerimeterAssignmentRunner {
         }
     }
 
-    public static void main (String[] args) {
-        PerimeterAssignmentRunner pr = new PerimeterAssignmentRunner();
-        pr.testPerimeter();
-    }
+//    public static void main (String[] args) {
+//        PerimeterAssignmentRunner pr = new PerimeterAssignmentRunner();
+////        pr.testPerimeter();
+////        pr.testPerimeterMultipleFiles();
+////        pr.testFileWithLargestPerimeter();
+//    }
 }

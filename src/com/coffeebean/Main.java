@@ -14,13 +14,8 @@ public class Main {
 	// write your code here
 
 
-        DirectoryResource dr = new DirectoryResource();
-        for (File f :
-                dr.selectedFiles()) {
-            FileResource fr = new FileResource(f);
-            Shape s = new Shape(fr);
-            System.out.println(s);
-        }
+        PerimeterAssignmentRunner pr = new PerimeterAssignmentRunner();
+        pr.testPerimeterMultipleFiles();
 
 
     }
