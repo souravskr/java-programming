@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 //	 write your code here
-        Part2 part2 = new Part2();
-        part2.testHowMany();
+        Part3 part3 = new Part3();
+        part3.testCountGenes();
     }
 }
